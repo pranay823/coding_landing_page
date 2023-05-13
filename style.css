@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+.wrapper{
+    height: 1200px;
+    overflow-x: hidden;
+   background-image: url(package-lock.png);
+   background-size:cover;
+   z-index: -2px;
+}
+.nav_logo{
+    display: inline;
+    position: relative;
+    top:20px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+}
+#logo{
+height: 60px;
+border: none;
+border-radius: 40px;
+position: absolute;
+left:1px;
+top:1px;
+
+}
+
+.nav{
+    position: fixed;
+    top:0px;
+
+    display:inline-block;
+    z-index: 2;
+}
+
+li{
+    display: inline;
+    padding: 0rem 3rem 0rem 3rem;
+    font-size:1rem;
+    color: white;
+    
+}
+li:hover{
+    color: rgb(255, 170, 0);
+    text-decoration:wavy;
+    transition:all ,0.5s;
+}
+.nav_links{
+    position: relative;
+    left: 50rem;
+    top:30px;
+}
+.content{
+    
+    position: absolute;
+    position: fixed;
+    width:500px;
+    top:200px;
+    left:100px;
+}
+h1{
+    font-size:5rem;
+    color: white;
+}
+#text{
+    color: white;
+    padding: 20px 0px 40px 0px;
+    line-height: 22px;
+    font-family: 'Armata';font-size: 17px;
+}
+img{
+    position: absolute;
+    left:800px;
+    height: 600px;
+    top:120px;
+   z-index: 1 ;
+}
+.button{
+    padding: 12px 40px;
+    border: none;
+    border-radius: 40px;
+    margin: 5px;
+    border:2px solid rgb(255, 170, 0);
+    background-color: rgb(255, 170, 0);
+    
+    
+}
+.button:hover{
+    background-color: rgba(2, 3, 4, 0);
+    color: white;
+    
+    transition:all ,0.5s;
+}
+
